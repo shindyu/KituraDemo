@@ -351,7 +351,7 @@
 			remoteGlobalIDString = OBJ_234;
 			remoteInfo = Kitura;
 		};
-		513E76EE1E797C06005CD390 /* PBXContainerItemProxy */ = {
+		513E76F51E798D92005CD390 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
@@ -1071,7 +1071,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				513E76EF1E797C06005CD390 /* PBXTargetDependency */,
+				513E76F61E798D92005CD390 /* PBXTargetDependency */,
 				OBJ_335 /* PBXTargetDependency */,
 				OBJ_336 /* PBXTargetDependency */,
 				OBJ_337 /* PBXTargetDependency */,
@@ -1295,10 +1295,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		513E76EF1E797C06005CD390 /* PBXTargetDependency */ = {
+		513E76F61E798D92005CD390 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = OBJ_297 /* KituraDemo */;
-			targetProxy = 513E76EE1E797C06005CD390 /* PBXContainerItemProxy */;
+			targetProxy = 513E76F51E798D92005CD390 /* PBXContainerItemProxy */;
 		};
 		OBJ_155 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1813,7 +1813,7 @@
 		OBJ_299 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ENABLE_TESTABILITY = YES;
+				ENABLE_TESTABILITY = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
@@ -1859,7 +1859,7 @@
 		OBJ_300 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ENABLE_TESTABILITY = YES;
+				ENABLE_TESTABILITY = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
